@@ -31,7 +31,7 @@ $ docker build -t [imagename] .
 $ docker run -e API_KEY=[YOUR_API_KEY] [imagename]
 ```
 
-5. Access the flight tracker microservice in your web browser at http://localhost:5000.
+5. Access the flight tracker microservice in your web browser at http://localhost:8080.
 
 ### Contributing
 
