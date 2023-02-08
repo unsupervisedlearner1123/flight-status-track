@@ -35,7 +35,7 @@ $ docker run -e API_KEY=[your_api_key] [imagename]
 
 ### Contributing
 
-Contributions are welcome! Pleae open a pull request and I will respond at the earliest.
+Contributions are welcome! Please open a pull request and I will respond at the earliest.
 
 
 
