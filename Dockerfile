@@ -19,7 +19,8 @@ ENV API_KEY=$API_KEY
 ENV FLASK_APP=app.py
 
 # Expose the application's port
-EXPOSE 5000
+# EXPOSE 5000
+EXPOSE 8080/tcp
 
 # Set the entry point to run the flask application
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
