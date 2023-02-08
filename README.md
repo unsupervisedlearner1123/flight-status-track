@@ -25,10 +25,10 @@ $ cd flight-status-track
 $ docker build -t [imagename] .
 ```
 
-4. Run the Docker container.
+4. Run the Docker container. (_Note: This service requires an API key from [here](https://www.goflightlabs.com/)._)
 
 ```
-$ docker run -e API_KEY=[your_api_key] [imagename]
+$ docker run -e API_KEY=[YOUR_API_KEY] [imagename]
 ```
 
 5. Access the flight tracker microservice in your web browser at http://localhost:5000.
