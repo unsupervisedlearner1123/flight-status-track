@@ -1,5 +1,5 @@
 # Flight Tracker Microservice
-## Individual Project 1 for IDS 721, Duke University
+## Individual Project 1 & 2 for IDS 721, Duke University
 
 A simple Flask microservice to track flight status.
 
