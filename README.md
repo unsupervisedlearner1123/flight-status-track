@@ -1,3 +1,5 @@
+[![CI](https://github.com/unsupervisedlearner1123/flight-status-track/actions/workflows/main.yml/badge.svg)](https://github.com/unsupervisedlearner1123/flight-status-track/actions/workflows/main.yml)
+
 # Flight Tracker Microservice
 ## Individual Project 1 & 2 for IDS 721, Duke University
 
