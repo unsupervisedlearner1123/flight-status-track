@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-flask-app
+spec:
+  selector:
+    app: my-flask-app
+  ports:
+  - name: http
+    port: 80
+    targetPort: 5000
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-flask-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-flask-app
+  template:
+    metadata:
+      labels:
+        app: my-flask-app
+    spec:
+      containers:
+      - name: my-flask-app
+        image: my-flask-app:0.1
+        imagePullPolicy: Never # For development purposes only. For production, use 'Always'
+        ports:
+        - containerPort: 5000
+        env:
+        - name: API_KEY
+          value: <your_api_key>
